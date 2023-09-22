@@ -1,0 +1,111 @@
+.h1 {
+    border: solid black;
+}
+
+h2 {
+    padding: 5px;
+}
+
+.helpme {
+    border: solid red;
+}
+
+.imagess {
+    width: 50%;
+    border-style: groove;
+    border-radius: 20px;
+    border-color: black;
+    padding: 5px;
+}
+
+.linkdiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: solid black;
+}
+
+ .link {
+    color: black;
+    font-size: larger;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-style: groove;
+    border-radius: 5px;
+    padding: 2px;
+} 
+
+.body {
+    background-color: rgb(27, 27, 27);
+}
+
+.projectdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.para {
+    padding: 20px;
+}
+
+.showimagebutton {
+    padding: 15px;
+    margin: 10px;
+}
+
+.radiobutton {
+    width: 25px;
+    height: 25px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: lightpink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .box:hover {
+    background-color: lightblue;
+  }
+  
+  .image-container {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+
+  .aboutmediv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    }
+
+    body {
+        background-color: #c4c4c4; 
+      }
+
+      @media (max-width: 768px) {
+        body {
+          font-size: 16px;
+        }
+      }
+      
+      @media (min-width: 1200px) {
+        body {
+          font-size: 18px;
+        }
+      }
